@@ -23,11 +23,11 @@ for (let i of switches) {
 
 function setTheme(theme) {
   if (theme == 'dark') {
-    document.getElementById('switcher-id').href = './themes/styledg.css';
+    document.getElementById('switcher-id').href = './styledg.css';
   } else if (theme == 'pink') {
-    document.getElementById('switcher-id').href = './themes/stylepink.css';
+    document.getElementById('switcher-id').href = './stylepink.css';
   } else if (theme == 'blue') {
-    document.getElementById('switcher-id').href = './themes/styleblue.css';
+    document.getElementById('switcher-id').href = './styleblue.css';
   }
   localStorage.setItem('style', theme);
 }
