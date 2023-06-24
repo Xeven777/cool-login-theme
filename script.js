@@ -9,7 +9,7 @@ let switches = document.getElementsByClassName('switch');
 let style = localStorage.getItem('style');
 
 if (style == null) {
-  setTheme('light');
+  setTheme('dark');
 } else {
   setTheme(style);
 }
