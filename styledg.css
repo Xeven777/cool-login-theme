@@ -1,0 +1,148 @@
+/*dark-gold theme*/
+body {
+    background: -webkit-linear-gradient(60deg, #302c19, #312a1b);
+    font-family: Assistant, sans-serif;
+    display: flex;
+    min-height: 90vh;
+}
+h4{
+    color: #c4ad2c;
+    padding: 0 0 0 20px;
+}
+.login {
+    color: white;
+    background: linear-gradient(to right, #000000, #2b2501, #131000);
+    background: -webkit-linear-gradient(to right, #000000, #2b2501, #131000);
+    margin: 5em 23em 7em 23em;
+    
+    box-shadow:
+        0px 2px 10px rgba(0, 0, 0, 0.2),
+        0px 10px 20px rgba(0, 0, 0, 0.3),
+        0px 30px 60px 1px rgba(116, 107, 11, 0.5);
+    border-radius: 15px;
+    padding:50px ;
+}
+
+.login .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .head .company {
+    font-size: 2.2em;
+    color: #d4af37;
+}
+
+.login .msg {
+    text-align: center;
+    color: #d4af37;
+}
+
+.login .form input[type=text].text {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px #ffd45e;
+    width: 100%;
+    color: #d4af37;
+    font-size: 1em;
+    outline: none;
+}
+
+.login .form .text::placeholder {
+    color: #b9b182;
+}
+
+.login .form input[type=password].password {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px #ffd45e;
+    width: 100%;
+    color: #d4af37;
+    font-size: 1em;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.login .form .password::placeholder {
+    color: #b9b182;
+}
+
+.login .form .btn-login {
+    background: none;
+    text-decoration: none;
+    color: #ffe77a;
+    box-shadow: 0px 0px 0px 2px #ebb627;
+    border-radius: 3px;
+    padding: 5px 2em;
+    transition: 0.5s;
+}
+
+.login .form .btn-login:hover {
+    background: #d4af37;
+    color: #fffef7;
+    transition: 0.5s;
+}
+
+.login .forgot {
+    text-decoration: none;
+    color: #ffd45e;
+    float: right;
+}
+
+footer {
+    position: absolute;
+    color: #fff6c0;
+    bottom: 10px;
+    padding-left: 20px;
+}
+
+footer p {
+    display: inline;
+}
+
+footer a {
+    color: rgb(255, 212, 120);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .heart {
+    color: #c4ad2c;
+    font-size: 1.5em
+}
+
+.theme-switches {
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    border: 2px solid rgb(255, 242, 242);
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.switch:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+#switch-1 {
+    background-color: #302c19;
+}
+
+#switch-2 {
+    background-color: #eb3b7e;
+}
+
+#switch-3 {
+    background-color: #3bd1eb;
+}
