@@ -1,0 +1,153 @@
+/*dark-venom theme*/
+body {
+    background: -webkit-linear-gradient(60deg, #080f14, #1e311b);
+    font-family: Assistant, sans-serif;
+    display: flex;
+    min-height: 90vh;
+}
+h4{
+    color: #3ce626;
+    padding: 0 0 0 20px;
+}
+.login {
+    color: white;
+    background: linear-gradient(to right, #000000, #24381d, #131000);
+    background: -webkit-linear-gradient(to right, #000000, #24381d, #131000);
+    margin: 5em 23em 7em 23em;
+    
+    box-shadow:
+        0px 2px 10px rgba(0, 0, 0, 0.2),
+        0px 10px 20px rgba(0, 0, 0, 0.3),
+        0px 30px 60px 1px rgba(53, 116, 11, 0.5);
+    border-radius: 15px;
+    padding:50px ;
+}
+
+.login .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .head .company {
+    font-size: 2.2em;
+    color: #14ff14;
+}
+
+.login .msg {
+    text-align: center;
+    color: #14ff14;
+}
+
+.login .form input[type=text].text {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px #6cff5e;
+    width: 100%;
+    color: #58ff58;
+    font-size: 1em;
+    outline: none;
+}
+
+.login .form .text::placeholder {
+    color: #88b982;
+}
+
+.login .form input[type=password].password {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px #6cff5e;
+    width: 100%;
+    color: #58ff58;
+    font-size: 1em;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.login .form .password::placeholder {
+    color: #88b982;
+}
+
+.login .form .btn-login {
+    background: none;
+    text-decoration: none;
+    color: #99ff3aee;
+    box-shadow: 0px 0px 0px 2px #49d437;
+    border-radius: 3px;
+    padding: 5px 2em;
+    transition: 0.5s;
+}
+
+.login .form .btn-login:hover {
+    background: #49d437;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.login .forgot {
+    text-decoration: none;
+    color: #99ff3aee;
+    float: right;
+}
+
+
+footer {
+    position: absolute;
+    color: #a5ffb4;
+    bottom: 10px;
+    padding-left: 20px;
+}
+
+footer p {
+    display: inline;
+}
+
+footer a {
+    color: rgb(103, 255, 82);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .heart {
+    color: #3ce626;
+    font-size: 1.5em
+}
+
+.theme-switches {
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    border: 2px solid rgb(255, 242, 242);
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.switch:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+#switch-1 {
+    background: linear-gradient(#000000,#e2cb00)
+}
+
+#switch-2 {
+    background: linear-gradient(#d198c3,#fd14a4);
+}
+
+#switch-3 {
+    background: linear-gradient(#9cc5bc,#00e2bc);
+}
+
+#switch-4 {
+    background: linear-gradient(#000000,#40e200)
+}
