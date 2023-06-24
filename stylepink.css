@@ -133,13 +133,17 @@ footer .heart {
 }
 
 #switch-1 {
-    background-color: #302c19;
+    background: linear-gradient(#000000,#e2cb00)
 }
 
 #switch-2 {
-    background-color: #eb3b7e;
+    background: linear-gradient(#d198c3,#fd14a4);
 }
 
 #switch-3 {
-    background-color: #3bd1eb;
+    background: linear-gradient(#9cc5bc,#00e2bc);
+}
+
+#switch-4 {
+    background: linear-gradient(#000000,#40e200)
 }
